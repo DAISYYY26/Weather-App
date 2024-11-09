@@ -31,16 +31,16 @@ async function checkWeather(city) {
 
         }
         else if (data.weather[0].main == "Clear") {
-            weatherIcon.src = ""
+            weatherIcon.src = "https://cdn-icons-png.freepik.com/256/3222/3222807.png?ga=GA1.1.790924945.1731121764&semt=ais_hybrid"
         }
         else if (data.weather[0].main == "Rain") {
-            weatherIcon.src = ""
+            weatherIcon.src = "https://cdn-icons-png.freepik.com/256/523/523551.png?uid=R172971764&ga=GA1.1.790924945.1731121764&semt=ais_hybrid"
         }
         else if (data.weather[0].main == "Drizzle") {
-            weatherIcon.src = ""
+            weatherIcon.src = "https://cdn-icons-png.freepik.com/256/9694/9694916.png?uid=R172971764&ga=GA1.1.790924945.1731121764&semt=ais_hybrid"
         }
         else if (data.weather[0].main == "Mist") {
-            weatherIcon.src = ""
+            weatherIcon.src = "https://cdn-icons-png.freepik.com/256/13882/13882534.png?uid=R172971764&ga=GA1.1.790924945.1731121764&semt=ais_hybrid"
         }
 
         document.querySelector(".weather").style.display = "block"; 
